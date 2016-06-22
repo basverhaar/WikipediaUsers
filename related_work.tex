@@ -1,25 +1,25 @@
 \section{Related Work}
 \label{sec:rel}
 
-Er is al eerder onderzoek gedaan naar het verschil in gender op Wikipedia. Door middel van vragenlijsten is onderzocht naar het verschil \todo{dit is geen nederlands} in aantal mannelijke en vrouwelijke Wikipedia editors. Hieruit kwam dat ongeveer 16,1\% van de editors op de online encyclopedie van het vrouwelijke geslacht is \citep{hill2013wikipedia}. Binnen Amerika lag dit wel een beetje hoger, namelijk 22,7\% van de editors was hier van het vrouwelijke geslacht. Hoewel Wikipedia meer artikelen heeft over vrouwen dan andere online encyclopedia zoals Britannica, is het zo dat binnen Wikipedia zelf relatief weinig artikelen gaan over vrouwen ten opzichten van artikelen over mannen \citep{reagle2011gender}. Hieruit lijkt het redelijk duidelijk dat vrouwen worden ondervertegenwoordigd. Het is daarom belangrijk om af te vragen waardoor dit komt. Ligt het bijvoorbeeld aan persoonlijke voorkeur, aantrekkelijkheid of discriminatie. Door deze oorzaak te begrijpen kan worden ingegrepen om balans te herstellen. 
+Er is al eerder onderzoek gedaan naar het verschil in gender op Wikipedia. Door middel van vragenlijsten is onderzocht naar het verschil tussen mannelijke en vrouwelijke Wikipedia editors. Hieruit kwam dat ongeveer 16,1\% van de editors op de online encyclopedie van het vrouwelijke geslacht is \citep{hill2013wikipedia}. Binnen Amerika lag dit wel een beetje hoger, namelijk 22,7\% van de editors was hier van het vrouwelijke geslacht. Hoewel Wikipedia meer artikelen heeft over vrouwen dan andere online encyclopedia zoals Britannica, is het zo dat binnen Wikipedia zelf relatief weinig artikelen gaan over vrouwen ten opzichten van artikelen over mannen \citep{reagle2011gender}. Hieruit lijkt het redelijk duidelijk dat vrouwen worden ondervertegenwoordigd. Het is daarom belangrijk om af te vragen waardoor dit komt. Ligt het bijvoorbeeld aan persoonlijke voorkeur, aantrekkelijkheid of discriminatie. Door deze oorzaak te begrijpen kan worden ingegrepen om balans te herstellen.
+
+\citet{viegas2007talk} onderzochten 25 willekeurige discussiepagina's uit een dump uit 2005 van de Engelstalige Wikipedia. Zij cre\"{e}erden 11 categori\"{e}n waarin gebruikers die dingen op discussiepagina's plaatsten ingedeeld konden worden. De meest voorkomende categorie was \textit{request for coordination} binnen de discussiepagina's. Dit is welliswaar ook de functie van de desbetreffende pagina's. Op de tweede plaats stond \textit{request for information}. Dit zijn gebruikers die geen intentie hebben om de artikelen aan te passen, maar kennis willen opdoen van andere mensen via de discussiepagina's. \citet{viegas2007talk} ondervonden dat converstaties op discussiepagina's redelijk geformaliseerd zijn en speciale etiketten aanhouden.
+
+\citet{laniado2011wikipedians} deden een uitgebreide analyse van de discussiepagina's van artikelen en van gebruikers. De focus lag op het detecteren van structurele patronen van interactie op de pagina's. Door te kijken naar de reacties die gebruikers gaven op discussiepagina's van artikelen of van andere gebruikers werd een een netwerk opgebouwd. Zij ondervonden dat gebruikers die veel \textit{outgoing links} hebben vaak reageren op gebruikers met weinig outgoing links en vice versa. Ervaren gebruikers reageren dus vaak op onervaren/nieuwe gebruikers. Ook werd er gekeken naar de grootte en vorm van de discussies op de discussiepagina's door te kijken naar het netwerk dat ontstond. Een voorbeeld is dat bij wiskunde er heel uitgebreid werd gediscussieerd maar er weinig verschillende gebruikers discussieerden en er relatief minder edits werden gedaan aan het corresponderende artikel dan men zou denken.
+
+\citet{kittur2007he} gebruikten berekenbare metriek en standaard \textit{machine learning} technieken om zo succesvol het niveau van conflict in een artikel te voorspellen. Op pagina's waar wellicht een heftige discussie plaats zou kunnen vinden staat een marker "{{controversial}}". Eerst werd de Controversial Revision Count (CRC) berekent door te kijken of deze marker op een pagina stond. Op de pagina's met een score van hoger dan 0 werden de metrieken vergeleken. Dit waren:
+
+\begin{itemize}
+\item Aantal revisies (discussiepagina) $\uparrow$
+\item Aantal kleine edits (discussiepagina) $\uparrow$
+\item Aantal unieke gebruikers (discusiepagina) $\downarrow$
+\item Aantal revisies (artikelpagina) $\uparrow$
+\item Aantal unieke gebruiekrs (artikelpagina) $\downarrow$
+\item Aantal anonieme edits (discussiepagina) $\uparrow$
+\item Aantal anonieme edits (artikelpagina) $\downarrow$
+\end{itemize}
+
+De pijlen erachter geven aan of het een positieve ($\uparrow$) of negatieve ($\downarrow$) correlatie heeft met mate van conflict. Met deze \textit{training set} konden \citet{kittur2007he} succesvol conflicten voorspellen op Wikipediapagina's, zelfs als ze geen \textit{controversial} marker hadden.
 
 
 
-\todo{Ik vind de twee onderstaande stukjes heel goed, maar die horen in de introductie. Je motiveert hierin jouw onderzoeksvragen heel goed, en haalt er literatuur bij over wikipedia zelf, en aanvullende meer psychologisch literatuur (dat denk ik althns, de links werken niet, en staan niet in je bib file). \\
-Verplaats dit dus naar je intro, en laat het zo. 
-\\
-In je related work hoort ander onderzoek gedaan op de edit-history/discussie paginas van Wikipedia. Geef daar een volledig overzicht van. Zoveel is het toch ook weer niet. En bespreek dan steeds kort wat ze wilden weten en wat voor technieken ze gebruikten. Helemaal als jij iets vergelijkbaars doet.}
-
-\subsection{Kritiek}
-Hoewel Wikipedia bekent staat dat alle mensen iets kunnen 'bijdragen' aan de gemeenschap, is het vaak zo dat 'bijdragen' staat voor het verwijderen of aanpassen van andermans werk. 'Samenwerken' betekent dus niet altijd dat iedereen collectief nieuwe informatie produceert. Vaak is 'samenwerken' het feit dat mensen het werk van onbekende anderen lezen, corrigeren en soms ook verwijderen. \todo{Mooi, maar graag referenties hierbij, het gaat tenslotte om related work} Er is al eerder onderzocht dat als kinderen, jongens sneller kiezen voor competitieve spelletjes, terwijl meisjes sneller kiezen voor spelletjes zonder een winnaar \citep{campbell2013mind}. Een reden hiervan is dat mannen meer houden van competitie. Vrouwen reageren ook anders op kritiek dan mannen. Mannen reageren minder op positieve of negatieve feedback dan vrouwen \citep{roberts1994gender}. Vrouwen krijgen meer zelfvertrouwen van positieve feedback terwijl mannen relatief onaangetast blijven. Bij het ontvangen van negatieve kritiek wordt het zelfvertrouwen van vrouwen aanzienlijk verlaagd terwijl dit van mannen wederom onaangetast blijft \citep{roberts1994gender}. Vrouwen gaven ook aan 31\% banger te zijn voor negatieve houdingen ten opzichten van hun werk op Wikipedia \citep{collier2012conflict}. Een reden voor het lage aantal vrouwelijke editors op Wikipedia zou dus kunnen zijn dat mannen negatiever zijn dan vrouwen. 
-
-\todo{maar hier hoort je onderzoeksvraag toch niet?}
-\begin{description}
-\item[Onderzoeksvraag 1] Is het taalgebruik van mannelijke gebruikers negatiever dan het taalgebruik van vrouwelijke gebruikers op discussiepagina's van Wikipedia?
-\end{description}
-
-\subsection{Conflict}
-Behalve de kritieke sfeer tussen Wikipedia editors, is er ook een hoog niveau aan conflicten. Hoewel het lijkt dat er veel wordt samengewerkt op Wikipedia, staan de discussiepagina's vol met \textit{edit-warring}: een fenomeen waar editors proberen andere edits op te heffen \citep{cassell2011editwars}. Volgens Cassell moeten editors erop aandringen dan hun standpunt de enige geldige is. Eerder onderzoek heeft al aangetoond dat vrouwen sneller geneigd zijn om conflicten te vermijden dan man \citep{brewer2002gender}. Ook ervaren vrouwen sneller angst en verhoogde hartslag bij conflicterende situaties \citep{smith1998agency}. Eerder onderzoek toonde ook aan dat vrouwen onderhandelingen en conflict zelfs vermijden als het gaat om hoge kosten. Een vrouw is bereid ongeveer \$1300,- meer te betalen voor een auto om onderhandelingen te vermijden \citep{babcock2009women}. Omdat Wikipedia's discussiepagina's grotendeels zijn gebaseerd op het oplossen van conflicten, persoonlijke discussies en onderhandelingen om tot een consensus te komen, zouden de verschillen in gender om mee te doen aan deze activiteiten de impact van contributie kunnen be\"{i}nvloeden.
-\begin{description}
-\item[Onderzoeksvraag 2] Zijn er vaak discussies tussen mannelijke gebruikers en vrouwelijke gebruikers op discussiepagina's?
-\end{description}
